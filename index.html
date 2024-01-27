@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kishor Shinde - Software Developer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f0f0f0; /* Light gray background */
+      color: #333; /* Dark gray text */
+    }
+    .navbar {
+      background-color: #333; /* Dark background for navbar */
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff !important; /* White text for navbar links */
+    }
+    .navbar-dark .navbar-toggler-icon {
+      background-color: #fff; /* White color for navbar toggler icon */
+    }
+    .bg-light {
+      background-color: #fff; /* White background for light sections */
+    }
+    .bg-dark {
+      background-color: #333; /* Dark background for dark sections */
+    }
+    .text-light {
+      color: #fff !important; /* White text color */
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kishor Shinde</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>Kishor Shinde, a passionate software developer with 2 years of experience in developing web-based applications using Java, Angular, Spring Boot, and microservices. Currently working at Austere System private Limited, Pune.</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Replace with your profile picture -->
+          <img src="profile-pic.jpg" alt="Kishor Shinde" class="img-fluid rounded-circle" style="height: 150px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2>Skills</h2>
+      <p>Java | Spring | Microservices | JPA | Hibernate | JavaScript | Angular | MySQL | PostgreSQL | GIT | Docker | Maven |
+        GraphQL | Jenkins | CI\CD | RabbitMQ | Kubernates | OpenAPI Specification</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+            <div class="card">
+              <!-- Replace with your project image -->
+              <img src="syndeo.png" alt="Project 1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Syndeo Healthcare Project</h5>
+                <p>Collaborated with a 15-member team in the USA, managing backend operations with Java, Spring Boot, and Microservices.</p>
+                <!-- View Details button triggers modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal1">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="projectModalLabel1">Syndeo Healthcare Project - Project Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Collaborated effectively with the USA team, fostering transparent communication and knowledge exchange, while adeptly managing backend operations with Java, Spring Boot, and Microservices for Syndeo's healthcare project.</li>
+                    <li>Utilized PostgreSQL for efficient data storage.</li>
+                    <li>Migrated project to Sping Boot 2.7.11, ensuring the latest technology and security updates.</li>
+                    <li>Achieved a 15% improvement in data retrieval speed.</li>
+                    <li>Implemented a comprehensive data backup and recovery system, enhancing system reliability.</li>
+                    <li>Effectively utilized GraphQL to meet specific data requirements, optimizing data retrieval and enhancing system performance.</li>
+                    <li>Implemented RabbitMQ for seamless communication between Microservices, ensuring efficient and reliable data flow within the system.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+            <div class="card">
+              <!-- Replace with your project image -->
+              <img src="crm.png" alt="Project 2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Vendor Portal (CRM)</h5>
+                <p>Developed using Java, Spring Boot, Spring Security, JPA, and MySQL. Achieved a 30% increase in data retrieval efficiency.</p>
+                <!-- View Details button triggers modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal2">
+                  View Details
+                </button>
+              </div>
+            </div>
+        </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="projectModalLabel2">Vendor Portal (CRM) - Monte Carlo - Project Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Developed using Java, Spring Boot, Spring Security, JPA, and MySQL.</li>
+                    <li>Designed RESTful APIs for data integration.</li>
+                    <li>Achieved a 30% increase in data retrieval efficiency.</li>
+                    <li>Collaborated with cross-functional teams, resulting in a 25% improvement in user load handling.</li>
+                    <li>Implemented a dynamic dashboard feature, enhancing real-time data visualization for users.</li>
+                    <li>Facilitated seamless data exchange by integrating Admin-generated data such as Purchase Orders (PO), Invoices, and Bill of Materials (BOM) into the Vendor Portal.</li>
+                    <li>Streamlined order processing by incorporating functionalities related to cloth operations, including cutting, stitching, and packaging, within the Daily Progress Report (DPR) module.</li>
+                    <li>Enabled vendors to send Advance Shipment Notifications (ASN) through the portal, enhancing communication and providing stakeholders with real-time updates on shipment status.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+            <div class="card">
+              <!-- Replace with your project image -->
+              <img src="acb.png" alt="Project 2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Anti-Corruption Bureau</h5>
+                <p class="card-text">
+                  Led the end-to-end development of a user-friendly case management system using Java, Spring Boot, JPA, and MySQL.
+                </p>
+                <!-- Read More button triggers modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal">
+                    View Details
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="projectModalLabel">Anti-Corruption Bureau - Project Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Implemented secure evidence upload and performance tracking features.</li>
+                    <li>Reduced case processing by efficient automation.</li>
+                    <li>Enhanced system security with multi-factor authentication, ensuring data integrity.</li>
+                    <li>Conducted workshops on system usage, contributing to a 40% increase in user proficiency.</li>
+                    <li>Successfully set up FTP on the server, streamlining file transfers and enhancing data accessibility.</li>
+                    <li>Led MySQL server setup and deployment, optimizing database performance and reliability.</li>
+                    <li>Implemented email functionality, facilitating efficient communication within the system and improving user engagement.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-light py-5">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+      <ul class="list-unstyled">
+        <li>Email: kushinde560@gmail.com</li>
+        <li>Phone: +91-8412819650</li>
+        <li>GitHub: <a href="https://github.com/kishor-shinde-96" target="_blank" class="text-light">github.com/kishor-shinde-96</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/kshinde96" target="_blank" class="text-light">linkedin.com/in/kshinde96</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-dark text-center py-3">
+    <div class="container">
+      <p>&copy; 2024 Kishor Shinde. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
